@@ -11,7 +11,7 @@
 
 <hr>
 
-<strong>Link do projeto curso: </strong><a href=""></a>
+<strong>Link do projeto: </strong><a href=""></a>
 
 <hr>
 
