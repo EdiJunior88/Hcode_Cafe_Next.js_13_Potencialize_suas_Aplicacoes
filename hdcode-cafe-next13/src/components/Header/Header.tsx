@@ -1,6 +1,4 @@
-import React from "react";
-
-const head = () => {
+export default function Header() {
   return (
     <>
       <title>Next.js 13.4 + Tailwind CSS + TypeScript</title>
@@ -9,6 +7,4 @@ const head = () => {
       <link rel='icon' href='/amazon-2.svg' />
     </>
   );
-};
-
-export default head;
+}

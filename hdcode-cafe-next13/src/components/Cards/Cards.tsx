@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 type CardsProps = {
   titleProduct: string;
@@ -8,7 +7,7 @@ type CardsProps = {
   pathImage?: string;
 };
 
-const Cards = (props: CardsProps) => {
+export default function Cards(props: CardsProps) {
   return (
     <div className='max-w-sm h-[500px] rounded overflow-hidden shadow-lg md:w-96'>
       <div className='relative w-full min-h-48 p-4'>
@@ -35,6 +34,4 @@ const Cards = (props: CardsProps) => {
       </div>
     </div>
   );
-};
-
-export default Cards;
+}

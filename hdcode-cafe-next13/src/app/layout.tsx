@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Header from "@/components/Header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='pt-br'>
-      <head />
+      <Header />
       <body className={inter.className}>
         {/* <h1>Isto deve aparecer em todas as páginas</h1> */}
         {children}

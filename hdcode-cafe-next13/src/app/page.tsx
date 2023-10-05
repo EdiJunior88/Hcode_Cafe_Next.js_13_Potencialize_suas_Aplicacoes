@@ -1,10 +1,8 @@
 import Cards from "@/components/Cards";
-import { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
-const Page: NextPage = () => {
+export default function Page() {
   return (
     <div className='page-container'>
       <div className='flex w-full min-h-96 flex-col items-center justify-between'>
@@ -67,6 +65,4 @@ const Page: NextPage = () => {
       </div>
     </div>
   );
-};
-
-export default Page;
+}
