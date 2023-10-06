@@ -1,8 +1,16 @@
 import Cards from "@/components/Cards";
 import Image from "next/image";
 import Link from "next/link";
+import Carousel from "@/components/Carousel/Carousel";
 
 export default function Page() {
+  const images = [
+    "https://placehold.co/480x300?font=roboto&text=Slide+1",
+    "https://placehold.co/480x300?font=roboto&text=Slide+2",
+    "https://placehold.co/480x300?font=roboto&text=Slide+3",
+    "https://placehold.co/480x300?font=roboto&text=Slide+4",
+  ];
+
   return (
     <div className='page-container'>
       <div className='flex w-full min-h-96 flex-col items-center justify-between'>
@@ -10,7 +18,7 @@ export default function Page() {
           <nav className='flex h-20 items-center px-4 shadow-md'>
             <Link href='/' className='text-lg font-bold'>
               <Image
-                src='./amazon-2.svg'
+                src='/amazon-2.svg'
                 alt='Amazon'
                 width={150}
                 height={40}
@@ -61,6 +69,23 @@ export default function Page() {
               price=''
             />
           </div>
+        </section>
+
+        <section className='lg:w-3/4 mx-auto my-2'>
+          <Carousel loop>
+            {images.map((src, i) => {
+              return (
+                <div className='relative h-64 flex-[0_0_100%]' key={i}>
+                  <Image
+                    src={src}
+                    fill
+                    className='object-cover'
+                    alt='alternative text'
+                  />
+                </div>
+              );
+            })}
+          </Carousel>
         </section>
       </div>
     </div>
