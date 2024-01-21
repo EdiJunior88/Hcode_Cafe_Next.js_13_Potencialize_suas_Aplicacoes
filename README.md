@@ -30,4 +30,4 @@
 <hr>
 
 <h4><b>Aulas:</b> 📼 1 video-aulas (Total de 01hr e 18min)</h4>
-<h4><b>Status do Curso:</b> 💭 Estudando</h4>
+<h4><b>Status do Curso:</b> 💤 Pausado (tempo indeterminado)</h4>
