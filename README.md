@@ -33,6 +33,8 @@ Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <h3>Status do Deploy</h3>
 
+<img src="https://therealsujitk-vercel-badge.vercel.app/?app=hcode-cafe-amazon-nextjs13&style=for-the-badge" alt="Vercel Deploy">
+
 <hr>
 
 <h3>Tempo Estudando o curso</h3>
